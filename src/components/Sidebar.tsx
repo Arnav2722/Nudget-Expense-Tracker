@@ -61,7 +61,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
       <div className="p-6">
         <div className="flex items-center space-x-3">
           <img
-            src="../../lightModeLogo.png"
+            src="../assets/lightModeLogo.png"
             alt="Wallet Icon"
             className="h-8 w-8"
           />         
