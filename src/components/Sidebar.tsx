@@ -61,10 +61,11 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
       <div className="p-6">
         <div className="flex items-center space-x-3">
           <img
-            src="lightModeLogo.png"
+            src="../../lightModeLogo.png"
             alt="Wallet Icon"
             className="h-8 w-8"
-          />          <div>
+          />         
+          <div>
             <h1 className="text-xl font-bold text-gray-900 dark:text-white">
               Nudget
             </h1>
