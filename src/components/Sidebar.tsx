@@ -13,6 +13,7 @@ import {
   Wallet,
   TrendingUp,
 } from 'lucide-react';
+import lightModeLogo from '../assets/lightModeLogo.png';
 
 const navigation = [
   { name: 'Dashboard', href: '/', icon: LayoutDashboard },
@@ -61,7 +62,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
       <div className="p-6">
         <div className="flex items-center space-x-3">
           <img
-            src="../assets/lightModeLogo.png"
+            src={lightModeLogo}
             alt="Wallet Icon"
             className="h-8 w-8"
           />         
