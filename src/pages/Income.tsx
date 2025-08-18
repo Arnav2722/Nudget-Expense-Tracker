@@ -291,7 +291,7 @@ const Income: React.FC = () => {
             <div>
               <p className="text-sm font-medium text-gray-600 dark:text-gray-400">Total Income</p>
               <p className="text-2xl font-bold text-green-600">
-                ${stats.totalIncome.toLocaleString()}
+                ₹{stats.totalIncome.toLocaleString()}
               </p>
             </div>
             <TrendingUp className="h-12 w-12 text-green-600" />
@@ -308,7 +308,7 @@ const Income: React.FC = () => {
             <div>
               <p className="text-sm font-medium text-gray-600 dark:text-gray-400">This Month</p>
               <p className="text-2xl font-bold text-green-600">
-                ${stats.monthlyIncome.toLocaleString()}
+                ₹{stats.monthlyIncome.toLocaleString()}
               </p>
               <p className={`text-sm ${stats.monthlyGrowth >= 0 ? 'text-green-600' : 'text-red-600'}`}>
                 {stats.monthlyGrowth >= 0 ? '+' : ''}{stats.monthlyGrowth.toFixed(1)}% from last month
@@ -328,7 +328,7 @@ const Income: React.FC = () => {
             <div>
               <p className="text-sm font-medium text-gray-600 dark:text-gray-400">Avg Transaction</p>
               <p className="text-2xl font-bold text-blue-600">
-                ${stats.avgTransaction.toLocaleString()}
+                ₹{stats.avgTransaction.toLocaleString()}
               </p>
             </div>
             <IndianRupee className="h-12 w-12 text-blue-600" />
@@ -532,7 +532,7 @@ const Income: React.FC = () => {
                       {transaction.categories?.name || 'N/A'}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-green-600">
-                      +${transaction.amount.toLocaleString()}
+                      +₹{transaction.amount.toLocaleString()}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white capitalize">
                       {transaction.payment_method.replace('_', ' ')}

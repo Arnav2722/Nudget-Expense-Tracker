@@ -242,7 +242,7 @@ const AddTransaction: React.FC = () => {
                 <option value="debit_card">Debit Card</option>
                 <option value="bank_transfer">Bank Transfer</option>
                 <option value="digital_wallet">Digital Wallet</option>
-                <option value="check">Check</option>
+                <option value="check">Cheque</option>
               </select>
             </div>
           </div>

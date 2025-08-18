@@ -284,19 +284,19 @@ const Budgets: React.FC = () => {
           <div>
             <p className="text-sm text-gray-600 dark:text-gray-400">Total Budget</p>
             <p className="text-2xl font-bold text-gray-900 dark:text-white">
-              ${totalBudget.toLocaleString()}
+              ₹{totalBudget.toLocaleString()}
             </p>
           </div>
           <div>
             <p className="text-sm text-gray-600 dark:text-gray-400">Total Spent</p>
             <p className="text-2xl font-bold text-red-600">
-              ${totalSpent.toLocaleString()}
+              ₹{totalSpent.toLocaleString()}
             </p>
           </div>
           <div>
             <p className="text-sm text-gray-600 dark:text-gray-400">Remaining</p>
             <p className={`text-2xl font-bold ${totalBudget - totalSpent >= 0 ? 'text-green-600' : 'text-red-600'}`}>
-              ${(totalBudget - totalSpent).toLocaleString()}
+              ₹{(totalBudget - totalSpent).toLocaleString()}
             </p>
           </div>
         </div>
@@ -363,7 +363,7 @@ const Budgets: React.FC = () => {
                     <div className="flex items-center space-x-4">
                       <div className="text-right">
                         <p className="text-sm text-gray-600 dark:text-gray-400">
-                          ${budget.spent?.toLocaleString() || 0} / ${budget.amount.toLocaleString()}
+                          ₹{budget.spent?.toLocaleString() || 0} / ₹{budget.amount.toLocaleString()}
                         </p>
                         <p className="text-xs text-gray-500 dark:text-gray-500">
                           {budget.percentage?.toFixed(1) || 0}% used

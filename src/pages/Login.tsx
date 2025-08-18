@@ -62,7 +62,7 @@ const Login: React.FC = () => {
           <img
             src={lightModeLogo}
             alt="Wallet Icon"
-            className="h-8 w-8"
+            className="h-24 w-24"
           />         
           <div></div>
           </div>

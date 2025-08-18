@@ -84,12 +84,12 @@ const Register: React.FC = () => {
           <img
             src={lightModeLogo}
             alt="Wallet Icon"
-            className="h-8 w-8"
+            className="h-24 w-24"
           />
           </div>
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white">Create Account</h1>
           <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 mt-2">
-            Join ExpenseTracker Pro and take control of your finances
+            Join Nudget and take control of your finances
           </p>
         </div>
 

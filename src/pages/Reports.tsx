@@ -313,7 +313,7 @@ const Reports: React.FC = () => {
             <div>
               <p className="text-sm font-medium text-gray-600 dark:text-gray-400">Total Income</p>
               <p className="text-2xl font-bold text-green-600">
-                ${reportData.summary.totalIncome.toLocaleString()}
+                ₹{reportData.summary.totalIncome.toLocaleString()}
               </p>
             </div>
             <ArrowUpRight className="h-8 w-8 text-green-600" />
@@ -330,7 +330,7 @@ const Reports: React.FC = () => {
             <div>
               <p className="text-sm font-medium text-gray-600 dark:text-gray-400">Total Expenses</p>
               <p className="text-2xl font-bold text-red-600">
-                ${reportData.summary.totalExpenses.toLocaleString()}
+                ₹{reportData.summary.totalExpenses.toLocaleString()}
               </p>
             </div>
             <ArrowDownRight className="h-8 w-8 text-red-600" />
@@ -347,7 +347,7 @@ const Reports: React.FC = () => {
             <div>
               <p className="text-sm font-medium text-gray-600 dark:text-gray-400">Net Income</p>
               <p className={`text-2xl font-bold ${reportData.summary.netIncome >= 0 ? 'text-green-600' : 'text-red-600'}`}>
-                ${reportData.summary.netIncome.toLocaleString()}
+                ₹{reportData.summary.netIncome.toLocaleString()}
               </p>
             </div>
             <IndianRupee className="h-8 w-8 text-primary-600" />
@@ -364,7 +364,7 @@ const Reports: React.FC = () => {
             <div>
               <p className="text-sm font-medium text-gray-600 dark:text-gray-400">Avg Daily Spending</p>
               <p className="text-2xl font-bold text-orange-600">
-                ${reportData.summary.avgDailySpending.toFixed(0)}
+                ₹{reportData.summary.avgDailySpending.toFixed(0)}
               </p>
             </div>
             <Calendar className="h-8 w-8 text-orange-600" />
@@ -527,7 +527,7 @@ const Reports: React.FC = () => {
                   </div>
                   <div className="text-right">
                     <p className="font-semibold text-gray-900 dark:text-white">
-                      ${category.value.toLocaleString()}
+                      ₹{category.value.toLocaleString()}
                     </p>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
                       {((category.value / reportData.summary.totalExpenses) * 100).toFixed(1)}%
