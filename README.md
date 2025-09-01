@@ -31,7 +31,7 @@ NudgetTracker is a simple and intuitive web application for tracking your expens
    npm start
    ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Technologies Used
 
