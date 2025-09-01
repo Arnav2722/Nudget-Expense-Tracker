@@ -15,8 +15,8 @@ NudgetTracker is a simple and intuitive web application for tracking your expens
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/nudgetTracker.git
-   cd nudgetTracker
+   git clone https://github.com/Arnav2722/Nudget-Expense-Tracker
+   cd Nudget-Expense-Tracker
    ```
 
 2. **Install dependencies:**
@@ -28,7 +28,7 @@ NudgetTracker is a simple and intuitive web application for tracking your expens
 3. **Start the development server:**
 
    ```bash
-   npm start
+   npm run dev
    ```
 
 4. Open [http://localhost:5173](http://localhost:5173) in your browser.
@@ -38,7 +38,7 @@ NudgetTracker is a simple and intuitive web application for tracking your expens
 - React
 - Node.js
 - Express
-- MongoDB (or your chosen database)
+- Supabase
 - Chart.js
 
 ## Contributing
