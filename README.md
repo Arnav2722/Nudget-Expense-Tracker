@@ -51,4 +51,4 @@ This project is licensed under the MIT License.
 
 ## Live Demo
 
-Check out the live application here: [https://trackernudget.netlify.app/](Click Here)
+Check out the live application here: [https://trackernudget.netlify.app](Click Here)
